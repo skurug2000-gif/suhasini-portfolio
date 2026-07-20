@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Suhasini, Senior QA Automation Engineer</title>
+  <meta name="description" content="About Suhasini: QA automation skills, frameworks, tools, and the modern 2026-ready stack she is currently mastering." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================= NAV (shared) ============================= -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="index.html" aria-label="Home"><span class="mark">S</span><span>Suhasini</span></a>
+      <nav aria-label="Primary">
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav__actions">
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <button class="nav__burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <div class="page-head">
+        <span class="eyebrow">About Me</span>
+        <h1>Quality is a discipline. I've practised it for years.</h1>
+        <p>Get to know my background, my toolkit, and the modern skills I'm bringing into 2026.</p>
+      </div>
+    </div>
+
+    <!-- ============================= BIO ============================= -->
+    <section class="section" style="padding-top:1rem;">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-photo reveal">
+            <!-- REPLACE with real photo: assets/profile.jpg -->
+            <img src="assets/profile.jpg" alt="Portrait of Suhasini" />
+          </div>
+          <div class="reveal" data-delay="1">
+            <!-- ===== EDIT: "About Me" paragraph — written in her voice.
+                 Adjust freely; placeholders in [BRACKETS] are optional to fill. ===== -->
+            <p>I'm <strong>Suhasini</strong>, a Senior QA Automation Engineer who has spent the
+              last six-plus years making sure enterprise software actually works — across web
+              UIs, APIs, and the data warehouses behind them. I've built Selenium and TestNG
+              frameworks from scratch, validated MicroStrategy reports against millions of rows
+              of SQL, and wired Cucumber BDD suites into Jenkins so entire teams could trust
+              their builds.</p>
+
+            <p>A couple of years ago I chose to take a planned career break. Rather than let my
+              skills sit still, I treated the time as an investment: I've been deliberately
+              modernizing my toolkit — moving from Selenium toward Playwright and Cypress, from
+              Jenkins toward GitHub Actions, and adding TypeScript, contract testing, and
+              accessibility testing to how I work.</p>
+
+            <div class="callout reveal">
+              <p><strong>Why the break makes me a better hire:</strong> I return with the same
+                rigor I always had, plus a current, in-demand stack and the perspective to know
+                which testing principles are timeless and which tools are simply the newest way
+                to apply them.</p>
+            </div>
+
+            <p>I care about maintainable frameworks, meaningful assertions, and fast feedback
+              loops. Whether it's a flaky legacy suite or a greenfield pipeline, I like leaving
+              a codebase more testable than I found it.</p>
+
+            <div class="hero__cta" style="margin-top:1.25rem;">
+              <a class="btn btn--primary" href="resume/Suhasini-Resume.pdf" download>Download Resume</a>
+              <a class="btn btn--outline" href="experience.html">View Experience</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= CORE SKILLS ============================= -->
+    <section class="section section--muted">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Core Skills</span>
+          <h2>Proven, production-tested expertise</h2>
+          <p>The foundations I've applied across five enterprise QA teams — grouped by discipline.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card reveal skill-group" data-delay="1">
+            <h3><span class="pip"></span> Automation</h3>
+            <div class="tags">
+              <span class="tag">Selenium WebDriver</span>
+              <span class="tag">TestNG</span>
+              <span class="tag">JUnit</span>
+              <span class="tag">Cross-browser testing</span>
+            </div>
+          </div>
+          <div class="card reveal skill-group" data-delay="2">
+            <h3><span class="pip"></span> API &amp; Performance</h3>
+            <div class="tags">
+              <span class="tag">REST API testing</span>
+              <span class="tag">SOAP testing</span>
+              <span class="tag">Postman</span>
+              <span class="tag">JMeter</span>
+            </div>
+          </div>
+          <div class="card reveal skill-group" data-delay="3">
+            <h3><span class="pip"></span> Frameworks</h3>
+            <div class="tags">
+              <span class="tag">Page Object Model</span>
+              <span class="tag">Data-Driven</span>
+              <span class="tag">Hybrid frameworks</span>
+              <span class="tag">Cucumber / BDD (Gherkin)</span>
+            </div>
+          </div>
+          <div class="card reveal skill-group" data-delay="1">
+            <h3><span class="pip"></span> Languages &amp; DB</h3>
+            <div class="tags">
+              <span class="tag">Java / J2EE</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Data-warehouse validation</span>
+              <span class="tag">MicroStrategy</span>
+            </div>
+          </div>
+          <div class="card reveal skill-group" data-delay="2">
+            <h3><span class="pip"></span> Tools</h3>
+            <div class="tags">
+              <span class="tag">Maven</span>
+              <span class="tag">Jenkins</span>
+              <span class="tag">Git</span>
+              <span class="tag">JIRA</span>
+              <span class="tag">HP Quality Center (ALM)</span>
+            </div>
+          </div>
+          <div class="card reveal skill-group" data-delay="3">
+            <h3><span class="pip"></span> Methodologies</h3>
+            <div class="tags">
+              <span class="tag">Agile / Scrum</span>
+              <span class="tag">SDLC</span>
+              <span class="tag">STLC</span>
+              <span class="tag">Test strategy</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Animated proficiency bars -->
+        <div class="section-head reveal" style="margin-top:3.5rem;">
+          <h2>Proficiency at a glance</h2>
+        </div>
+        <div class="grid grid--2">
+          <div class="skillbars reveal" data-delay="1">
+            <div class="skillbar">
+              <div class="skillbar__top"><span>Selenium + TestNG</span><span>95%</span></div>
+              <div class="skillbar__track"><div class="skillbar__fill" data-value="95"></div></div>
+            </div>
+            <div class="skillbar">
+              <div class="skillbar__top"><span>Framework design (POM / Hybrid)</span><span>92%</span></div>
+              <div class="skillbar__track"><div class="skillbar__fill" data-value="92"></div></div>
+            </div>
+            <div class="skillbar">
+              <div class="skillbar__top"><span>SQL &amp; data-warehouse validation</span><span>90%</span></div>
+              <div class="skillbar__track"><div class="skillbar__fill" data-value="90"></div></div>
+            </div>
+          </div>
+          <div class="skillbars reveal" data-delay="2">
+            <div class="skillbar">
+              <div class="skillbar__top"><span>Cucumber BDD</span><span>88%</span></div>
+              <div class="skillbar__track"><div class="skillbar__fill" data-value="88"></div></div>
+            </div>
+            <div class="skillbar">
+              <div class="skillbar__top"><span>API testing (REST / SOAP)</span><span>85%</span></div>
+              <div class="skillbar__track"><div class="skillbar__fill" data-value="85"></div></div>
+            </div>
+            <div class="skillbar">
+              <div class="skillbar__top"><span>CI with Jenkins</span><span>85%</span></div>
+              <div class="skillbar__track"><div class="skillbar__fill" data-value="85"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= CURRENTLY LEARNING ============================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Professional Toolkit · 2026-Ready</span>
+          <h2>Modern tools, built on proven foundations</h2>
+          <p>The current, in-demand tools I bring to the role — each building directly on the fundamentals I've applied across years of QA automation.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card skill-card reveal" data-delay="1">
+            <span class="badge-pro">Professional</span>
+            <h3>Playwright</h3>
+            <p>The modern successor to Selenium — faster, less flaky, with auto-waiting. My WebDriver experience maps directly onto it.</p>
+          </article>
+          <article class="card skill-card reveal" data-delay="2">
+            <span class="badge-pro">Professional</span>
+            <h3>Cypress</h3>
+            <p>Developer-friendly UI testing with time-travel debugging. Reinforces the same locator and assertion discipline I already use.</p>
+          </article>
+          <article class="card skill-card reveal" data-delay="3">
+            <span class="badge-pro">Professional</span>
+            <h3>GitHub Actions</h3>
+            <p>CI/CD as code — the natural evolution of my Jenkins pipeline experience, now version-controlled alongside the tests.</p>
+          </article>
+          <article class="card skill-card reveal" data-delay="1">
+            <span class="badge-pro">Professional</span>
+            <h3>TypeScript / JavaScript</h3>
+            <p>The language of modern test scripts. Strong typing brings the same safety I valued in Java to Playwright and Cypress suites.</p>
+          </article>
+          <article class="card skill-card reveal" data-delay="2">
+            <span class="badge-pro">Professional</span>
+            <h3>API Contract Testing</h3>
+            <p>Consumer-driven contracts (e.g. Pact) catch breaking changes early — a precise upgrade to my REST/SOAP testing background.</p>
+          </article>
+          <article class="card skill-card reveal" data-delay="3">
+            <span class="badge-pro">Professional</span>
+            <h3>Accessibility Testing (axe)</h3>
+            <p>Automated a11y checks folded into the pipeline, making inclusive quality a first-class, repeatable part of every release.</p>
+          </article>
+          <article class="card skill-card reveal" data-delay="1">
+            <span class="badge-pro">Professional</span>
+            <h3>AI-Assisted Test Generation</h3>
+            <p>Using AI to scaffold and maintain test cases faster — pairing human test strategy with machine speed for broader coverage.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================= FOOTER (shared) ============================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">Suhasini · QA Automation Engineer</div>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="[LINKEDIN]" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="[GITHUB]" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+      <p class="footer__copy">© <span data-year>2026</span> Suhasini Surasani. Built with plain HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
